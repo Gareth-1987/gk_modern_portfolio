@@ -319,7 +319,7 @@ main {
   #back-to-top-btn {
     width: 32px;
     height: 32px;
-    bottom: 10px;
+    bottom: 14px;
     right: 15px; } }
 
 @media screen and (max-width: 500px) {
