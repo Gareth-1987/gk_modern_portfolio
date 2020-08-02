@@ -145,14 +145,14 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 100px); }
+  min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem;
-      transition: all 0.5s ease-out; }
+      padding: 0.4rem; }
       main .icons a:hover {
-        color: #eece1a; }
+        color: #eece1a;
+        transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -261,7 +261,7 @@ main {
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
   background-color: #eece1a;
-  color: #333; }
+  color: #fff; }
 
 #main-footer {
   text-align: center;
