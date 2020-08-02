@@ -1,8 +1,8 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 10px;
-  top: 10px;
+  right: 35px;
+  top: 35px;
   cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
@@ -94,14 +94,10 @@
 * {
   box-sizing: border-box; }
 
-html {
-  height: -webkit-fill-available; }
-
 body {
   background: #444;
   color: #fff;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
@@ -117,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(68, 68, 68, 0.7); }
 
 h1,
 h2,
@@ -149,14 +145,14 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh - 60px); }
+  min-height: calc(100% - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #eece1a;
-        transition: all 0.5s ease-out; }
+        color: #eece1a; }
   main#home {
     overflow: hidden; }
     main#home h1 {
