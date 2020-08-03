@@ -226,7 +226,8 @@ main {
 }
 
 #back-to-top-btn:hover,
-#back-to-top-btn:focus {
+#back-to-top-btn:focus,
+#back-to-top-btn:active {
   background-color: $secondary-color;
   color: #333;
 }
