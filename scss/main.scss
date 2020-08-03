@@ -210,7 +210,7 @@ main {
 
 #back-to-top-btn {
   position: fixed;
-  right: 35px;
+  right: 10px;
   bottom: 10px;
   width: 40px;
   height: 40px;
@@ -228,7 +228,7 @@ main {
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
   background-color: $secondary-color;
-  color: lighten($primary-color, 50);
+  color: #333;
 }
 
 #main-footer {
