@@ -46,7 +46,7 @@ $background-opacity: 0.7;
 }
 
 @mixin mediaMd {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 878px) {
     @content;
     #back-to-top-btn {
       width: 32px;
@@ -58,7 +58,7 @@ $background-opacity: 0.7;
 }
 
 @mixin mediaLg {
-  @media screen and (min-width: 769px) and (max-width: 1170px) {
+  @media screen and (min-width: 879px) and (max-width: 1170px) {
     @content;
 
     #back-to-top-btn {
