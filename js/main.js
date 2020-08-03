@@ -38,7 +38,7 @@ function toggleMenu() {
 window.addEventListener("scroll", scrollFunction);
 
 function scrollFunction() {
-  if (window.pageYOffset > 500) {
+  if (window.pageYOffset > 300) {
     if (!backToTopButton.classList.contains("btnEntrance")) {
       backToTopButton.classList.remove("btnExit");
       backToTopButton.classList.add("btnEntrance");

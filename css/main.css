@@ -244,7 +244,7 @@ main {
 
 #back-to-top-btn {
   position: fixed;
-  right: 35px;
+  right: 10px;
   bottom: 10px;
   width: 40px;
   height: 40px;
@@ -261,7 +261,7 @@ main {
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
   background-color: #eece1a;
-  color: #c4c4c4; }
+  color: #333; }
 
 #main-footer {
   text-align: center;
