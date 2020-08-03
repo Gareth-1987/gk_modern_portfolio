@@ -244,8 +244,8 @@ main {
 
 #back-to-top-btn {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
+  right: 13px;
+  bottom: 8px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -269,8 +269,7 @@ main {
   background: #2b2b2b;
   color: #fff;
   height: 60px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: bold; }
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
 
 @media screen and (min-width: 1171px) {
   .projects {
