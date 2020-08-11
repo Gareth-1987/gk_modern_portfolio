@@ -276,7 +276,7 @@ main {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
-@media screen and (min-width: 879px) and (max-width: 1170px) {
+@media screen and (min-width: 801px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); }
   #back-to-top-btn {
@@ -285,7 +285,7 @@ main {
     bottom: 10px;
     right: 10px; } }
 
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 800px) {
   main {
     align-items: center;
     text-align: center; }
