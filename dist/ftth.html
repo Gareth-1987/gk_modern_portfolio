@@ -20,9 +20,8 @@
     <button onclick="goBack()" class="back-btn">
       <i class="far fa-times-circle"></i>
     </button>
-
     
-    <button id="back-to-top-btn">
+    <button onClick="document.documentElement.scrollIntoView({ behavior: 'smooth' });" id="back-to-top-btn2">
       <i class="fas fa-angle-double-up"></i>
     </button>
 
@@ -55,12 +54,16 @@
             <img src="img/frogfoot.jpg" alt="Project" />
           </a>
         </div>
+        <div class="item">
+          <a href="other.html">
+            <img src="img/other.jpg" alt="Project" />
+          </a>
+        </div>
       </div>
     </main>
 
     <footer id="main-footer">
-      <p class="yellow">W<span class="white">eb</span><class="yellow">A<span class="white">pp</span>
-      A<span class="white">lternatives</span>
+      <p class="yellow">W<span class="white">eb</span><class="yellow">A<span class="white">pp</span>A<span class="white">lternatives</span>
       &copy; <span class="white"><script>document.write(new Date().getFullYear());</script></span></p>
     </footer>
 

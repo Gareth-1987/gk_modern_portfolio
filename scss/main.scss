@@ -1,6 +1,5 @@
 @import "config";
 @import "menu";
-@import "slider";
 
 * {
   box-sizing: border-box;
@@ -14,6 +13,7 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  scroll-behavior: smooth;
 }
 
 // HEADINGS
@@ -25,6 +25,8 @@ h3 {
 
   &.lg-heading {
     font-size: 6rem;
+    justify-content: center;
+    align-items: center;
   }
 
   &.sm-heading {
@@ -214,7 +216,8 @@ main {
   color: #333;
 }
 
-#back-to-top-btn {
+#back-to-top-btn,
+#back-to-top-btn2 {
   position: fixed;
   right: 13px;
   bottom: 8px;
@@ -230,11 +233,15 @@ main {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
+  z-index: 1;
 }
 
 #back-to-top-btn:hover,
 #back-to-top-btn:focus,
-#back-to-top-btn:active {
+#back-to-top-btn:active,
+#back-to-top-btn2:hover,
+#back-to-top-btn2:focus,
+#back-to-top-btn2:active {
   background-color: $secondary-color;
   color: #333;
 }
@@ -242,17 +249,17 @@ main {
 .back-btn {
   position: fixed;
   z-index: 1;
-  right: 3px;
-  top: 3px;
-  width: 100px;
-  height: 100px;
+  right: 1px;
+  top: 1px;
+  width: 60px;
+  height: 60px;
   background-color: transparent;
   border-radius: 50%;
   color: rgba(49, 49, 49, 0.993);
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 50px;
+  font-size: 42px;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
@@ -282,3 +289,4 @@ main {
 }
 
 @import "mobile";
+@import "slider";

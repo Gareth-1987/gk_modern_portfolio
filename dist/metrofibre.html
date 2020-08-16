@@ -11,8 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/glide.theme.min.css">
     <link rel="stylesheet" href="css/main.css" />
-    <title>Metro Fibre</title>
+    
+    <title> Metrofibre | Projects</title>
   </head>
 
   <body>
@@ -20,9 +24,7 @@
       <i class="far fa-times-circle"></i>
     </button>
 
-    <button id="back-to-top-btn">
-      <i class="fas fa-angle-double-up"></i>
-    </button>
+    
 
     <main id="work">
       <h1 class="lg-heading">
@@ -32,14 +34,61 @@
       <h2 class="sm-heading">
         Check out these completed projects...
       </h2>
+
+      <div class="slider">
+        <div class="images glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+            <li class="glide__slide">
+              <img src="images/a.jpg" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="images/b.jpg" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="images/c.jpg" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="images/d.jpg" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="images/e.jpg" alt="">
+            </li>
+          </ul>
+        </div>
+    
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer id="main-footer">
-      <p class="yellow">W<span class="white">eb</span><class="yellow">A<span class="white">pp</span>
-      A<span class="white">lternatives</span>
+      <p class="yellow">W<span class="white">eb</span><class="yellow">A<span class="white">pp</span>A<span class="white">lternatives</span>
       &copy; <span class="white"><script>document.write(new Date().getFullYear());</script></span></p>
     </footer>
 
+    <script src="js/glide.min.js"></script>
+    <script>
+      new Glide(".images", {
+  type: "carousel",
+  preView: 5,
+  focusAt: "center",
+  gap: 40,
+  autoplay: 6000,
+  breakpoints: {
+    1200: {
+      perView: 3,
+    },
+    800: {
+      preView: 2,
+    },
+  },
+}).mount();
+    </script>
+    <script src="js/scrolltop.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
