@@ -219,7 +219,8 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  border: 2px solid #eece1a; }
   .boxes div {
     font-size: 2rem;
     border: 3px #fff solid;
