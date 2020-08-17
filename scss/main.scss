@@ -134,7 +134,8 @@ main {
   .job {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
-    border-bottom: $secondary-color 5px solid;
+    border-top: 2px solid $secondary-color;
+    border-bottom: $secondary-color 4px solid;
 
     &h3 {
       color: $secondary-color;
@@ -181,12 +182,17 @@ main {
     margin-bottom: 3rem;
     @include easeOut;
 
-    &:hover {
-      padding: 0.5rem 1.5rem;
-      background: $secondary-color;
-      color: set-text-color($secondary-color);
-      span {
+    .btn-light {
+      text-align: center;
+      justify-content: center;
+
+      &:hover {
+        padding: 0.5rem 1.5rem;
+        background: $secondary-color;
         color: set-text-color($secondary-color);
+        span {
+          color: set-text-color($secondary-color);
+        }
       }
     }
   }
@@ -204,6 +210,7 @@ main {
   @extend .btn;
   background: darken($primary-color, 5);
   color: #fff;
+  cursor: default;
   //border: 2px solid rgba(228, 190, 21, 0.918);
 }
 
@@ -211,6 +218,7 @@ main {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+  cursor: default;
   //border: 2px solid rgba(32, 32, 32, 0.993);
 }
 
