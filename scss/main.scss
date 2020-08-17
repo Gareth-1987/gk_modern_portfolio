@@ -211,7 +211,7 @@ main {
   background: darken($primary-color, 5);
   color: #fff;
   cursor: default;
-  //border: 2px solid rgba(228, 190, 21, 0.918);
+  border: 0.5px solid #fff;
 }
 
 .btn-light {
@@ -219,7 +219,7 @@ main {
   background: lighten($primary-color, 50);
   color: #333;
   cursor: default;
-  //border: 2px solid rgba(32, 32, 32, 0.993);
+  border: 0.5px solid rgba(17, 17, 17, 0.993);
 }
 
 #back-to-top-btn,
