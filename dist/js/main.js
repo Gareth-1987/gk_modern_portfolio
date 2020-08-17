@@ -4,7 +4,9 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
-const backToTopButton = document.querySelector("#back-to-top-btn");
+const backToTopButton = document.querySelector(
+  "#back-to-top-btn, #back-to-top-btn2"
+);
 
 // Set Initial State Of Menu
 

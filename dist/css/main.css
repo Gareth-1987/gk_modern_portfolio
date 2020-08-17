@@ -238,12 +238,9 @@ main {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
-    color: #000; }
 
 .btn-dark {
-  background: black;
+  background: #373737;
   color: #fff; }
 
 .btn-light {
@@ -366,7 +363,13 @@ main {
     height: 32px;
     bottom: 14px;
     right: 15px;
-    font-size: 20px; } }
+    font-size: 20px; }
+  .back-btn {
+    right: 6px;
+    top: 6px;
+    width: 50px;
+    height: 50px;
+    font-size: 34px; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -377,12 +380,6 @@ main {
       margin-top: 1.2rem;
       font-size: 4rem;
       line-height: 1; }
-  .back-btn {
-    right: 1px;
-    top: 1px;
-    width: 50px;
-    height: 50px;
-    font-size: 35px; }
   .contact-info {
     grid-template-areas: "email" "phone" "location";
     grid-template-columns: 0.5fr; }

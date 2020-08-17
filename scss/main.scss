@@ -198,22 +198,20 @@ main {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
-  &:hover {
-    background: $secondary-color;
-    color: set-text-color($secondary-color);
-  }
 }
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
+  background: darken($primary-color, 5);
   color: #fff;
+  //border: 2px solid rgba(228, 190, 21, 0.918);
 }
 
 .btn-light {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+  //border: 2px solid rgba(32, 32, 32, 0.993);
 }
 
 #back-to-top-btn,
