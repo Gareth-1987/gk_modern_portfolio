@@ -203,7 +203,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid;
+    border: 3px rgba(239, 208, 35, 0.9) solid;
     margin-bottom: 20px; }
     .projects img:hover {
       opacity: 0.5;
@@ -219,8 +219,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem;
-  border: 2px solid #eece1a; }
+  margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
     border: 3px #fff solid;
@@ -323,7 +322,8 @@ main {
 @media screen and (min-width: 801px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); }
-  #back-to-top-btn {
+  #back-to-top-btn,
+  #back-to-top-btn2 {
     width: 40px;
     height: 40px;
     bottom: 10px;
@@ -360,7 +360,8 @@ main {
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
-  #back-to-top-btn {
+  #back-to-top-btn,
+  #back-to-top-btn2 {
     width: 32px;
     height: 32px;
     bottom: 14px;
@@ -386,7 +387,10 @@ main {
     grid-template-areas: "email" "phone" "location";
     grid-template-columns: 0.5fr; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  button.glide__arrow--left,
+  button.glide__arrow--right {
+    display: none; } }
 
 div.slider {
   display: flex;

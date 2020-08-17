@@ -108,4 +108,9 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  button.glide__arrow--left,
+  button.glide__arrow--right {
+    display: none;
+  }
 }
