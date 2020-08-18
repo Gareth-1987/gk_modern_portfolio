@@ -182,17 +182,12 @@ main {
     margin-bottom: 3rem;
     @include easeOut;
 
-    .btn-light {
-      text-align: center;
-      justify-content: center;
-
-      &:hover {
-        padding: 0.5rem 1.5rem;
-        background: $secondary-color;
+    &:hover {
+      padding: 0.5rem 1.5rem;
+      background: $secondary-color;
+      color: set-text-color($secondary-color);
+      span {
         color: set-text-color($secondary-color);
-        span {
-          color: set-text-color($secondary-color);
-        }
       }
     }
   }
