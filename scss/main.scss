@@ -271,6 +271,30 @@ main {
   color: rgba(228, 190, 21, 0.918);
 }
 
+.CV {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.CV a {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.CV a:hover {
+  color: rgba(228, 190, 21, 0.918);
+}
+
+.CV p {
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  font-size: 1rem;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .yellow {
   color: rgba(228, 190, 21, 0.918);
 }
