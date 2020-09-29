@@ -164,7 +164,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio bio" "job0 job1 job2 job3" "job4 job5 job6 job7" "job8 job9 job10";
+  grid-template-areas: "bioimage bio bio bio" "job0 job1 job2 job3" "job4 job5 job6 job7" "job8 job9 job10 job";
   grid-template-columns: repeat(4, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
