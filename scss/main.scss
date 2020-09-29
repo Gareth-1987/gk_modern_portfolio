@@ -320,7 +320,26 @@ main {
   margin: 20px 10px 10px 10px;
   padding: 0;
   font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.cert {
+  display: flex;
+}
+
+.cert a {
+  color: #fff;
+  margin-top: 60px;
+}
+
+.cert a:hover {
+  color: rgba(228, 190, 21, 0.918);
+}
+
+.cert p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
