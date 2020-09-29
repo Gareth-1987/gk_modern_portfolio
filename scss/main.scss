@@ -270,6 +270,22 @@ main {
   background-color: transparent;
   color: rgba(228, 190, 21, 0.918);
 }
+.website {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.website a {
+  color: #fff;
+  margin: 18px 0 0 0;
+  padding: 0 10px;
+}
+
+.website a:hover {
+  color: rgba(228, 190, 21, 0.918);
+}
 
 .CV {
   display: flex;
