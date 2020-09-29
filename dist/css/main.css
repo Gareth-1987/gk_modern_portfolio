@@ -164,7 +164,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio bio" "job1 job2 job3 job4" "job5 job6 job7 job8";
+  grid-template-areas: "bioimage bio bio bio" "job0 job1 job2 job3" "job4 job5 job6 job7" "job8 job9 job10 job11";
   grid-template-columns: repeat(4, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -174,6 +174,8 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info .job-0 {
+    grid-area: job0; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -190,6 +192,12 @@ main {
     grid-area: job7; }
   .about-info .job-8 {
     grid-area: job8; }
+  .about-info .job-9 {
+    grid-area: job9; }
+  .about-info .job-10 {
+    grid-area: job10; }
+  .about-info .job-11 {
+    grid-area: job11; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
