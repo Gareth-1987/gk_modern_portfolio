@@ -326,7 +326,7 @@ main {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 60px; }
+  margin-bottom: 40px; }
 
 .CV a {
   color: #fff;
@@ -346,7 +346,9 @@ main {
 
 .cert a {
   color: #fff;
-  margin-top: 60px; }
+  margin-top: 60px;
+  justify-content: center;
+  text-align: center; }
 
 .cert a:hover {
   color: rgba(228, 190, 21, 0.918); }

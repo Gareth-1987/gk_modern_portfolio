@@ -304,7 +304,7 @@ main {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .CV a {
@@ -330,6 +330,8 @@ main {
 .cert a {
   color: #fff;
   margin-top: 60px;
+  justify-content: center;
+  text-align: center;
 }
 
 .cert a:hover {
